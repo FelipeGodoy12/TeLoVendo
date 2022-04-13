@@ -1,0 +1,164 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Te lo Vendo</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/59/%C3%8Dcono_Computadora_-_Internet.JPG">        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link type='text/css' rel="stylesheet" href='{% static 'AppTelovendo/css/stiloform.css' %}'>
+    </head>
+    <body>
+        <header>
+            <h1>TE LO VENDO</h1>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="">Inicio</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catálogo
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="estadisticas">Estadísticas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- <nav class="menu" >
+            <ul>
+                <li><a href="AE2PRO2_2.html" class="nav-enlace">Inicio</a></li>|
+                <li><a herf="#" class="nav-enlace">Categoría</a></li>|
+                <li><a href="Contacto.html" class="nav-enlace">Contacto</a><li>
+            </ul>
+        </nav> -->
+        <h2 class="Catalogo">Catálogo</h2>
+        <div class="Contenedor-carrusel">
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>              
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div>
+                      <h5 class="h5-carousel d-none d-md-block" >Papas fritas</h5>
+                  </div>
+                <img src="https://www.nikankitchen.com/Images/ProductsWebP/haitai-honey-butter-chips-60g.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Elaboradas con una selección de papas del sur de china.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Arvejas con wasabi</h5>
+                </div>
+                <img src="https://dojiw2m9tvv09.cloudfront.net/22913/product/L_49013260119225896.jpg?36" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Ricas arvejas cultivadas en Nankin, sazonadas con sal</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Caramelo de maíz</h5>
+                </div>
+                <img src="https://dojiw2m9tvv09.cloudfront.net/22913/product/L_1503394000054yl7swr5705.jpg?36" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Cararamelo sabor maiz, cubierto con miel</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Bebidas Asiaticas</h5>
+                </div>
+                <img src="https://m.media-amazon.com/images/I/71Kn91tTRmS._SX425_PIbundle-8,TopRight,0,0_AA425SH20_.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Elaboradas con agua de manantial y baja en azúcar.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Snack chocolate</h5>
+                </div>
+                <img src="https://dojiw2m9tvv09.cloudfront.net/22913/product/L_88019061620747895.jpg?36" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Snacks de souflé sabor chocolate</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="6000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Masticable de sandia</h5>
+                </div>
+                <img src="https://dojiw2m9tvv09.cloudfront.net/22913/product/L_sandia5095.jpg?36" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">Masticable sabor sandía.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="7000">
+                <div>
+                    <h5 class="h5-carousel d-none d-md-block">Mochi</h5>
+                </div>
+                <img src="https://cdn.queapetito.com/wp-content/uploads/2019/12/mochi-el-postre-japones-600x469.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="p-carousel">En 12 diferentes sabores.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <hr>
+            <h2 class="nosotros">La empresa “Te lo Vendo” es un emprendimiento de un grupo de jóvenes, que vende snack asiáticos al por mayor.
+            </h2>
+        <br>
+        <br>
+
+        <footer>
+          <p class="p-footer">Dirección: 742 Evergreen Terrace, Sprinfield.</p>
+            <p class="p-footer">Copyright © 1999-2022 Te lo Vendo Ltda.</p>
+            Camila Pedraza Flores<br>
+            Felipe Godoy Nuñez<br>
+            Ian Hernández<br>
+            <br></p>
+        </footer>
+        <!-- aca se pega el JS del boostrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src='{% static 'AppTelovendo/js/funciones.js' %}'></script>
+    </body>
+</html>
