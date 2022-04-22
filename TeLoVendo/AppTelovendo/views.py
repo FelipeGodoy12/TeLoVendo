@@ -1,6 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib import messages
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.decorators import login_required
 
-from .forms import proveedorform
+
+from .forms import proveedorform, UserRegistrerForm
 from .models import Provedore
 
 # Create your views here.
@@ -17,7 +21,6 @@ def formulario(request):
 
     form = proveedorform()
     if request.method == 'POST':
-        print('pasamos el post')
         form = proveedorform(request.POST)
         if form.is_valid():
             proveedor = Provedore()
@@ -27,7 +30,30 @@ def formulario(request):
             proveedor.telefono_proveedor = form.data['telefono_proveedor']
             proveedor.email_proveedor = form.data['email_proveedor']
             proveedor.save()
+            messages.success(request, f'El proveedor {proveedor.nombre_proveedor} a sido Registrado Correctamente')
         else:
             print('invalido')
 
     return render(request, 'AppTelovendo/formulario.html',{'form': form})
+
+
+def registrar(request):
+    if request.method == 'POST':
+        form = UserRegistrerForm(request.POST)
+        if form.is_valid():
+            form.save()
+            username = form.cleaned_data['username']
+            messages.success(request, f'El Usuario {username} a sido Registrado Correctamente')
+            return redirect('login')
+    else:
+        form = UserRegistrerForm()
+
+    context = {'form':form}
+
+    return render(request, 'AppTelovendo/registrarse.html', context)
+
+
+@login_required
+def ingresado(request):
+    return render(request, 'AppTelovendo/ingresado.html')
+
