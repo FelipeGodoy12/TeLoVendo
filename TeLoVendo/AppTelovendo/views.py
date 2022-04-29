@@ -1,6 +1,5 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
-from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
 
 
@@ -20,6 +19,7 @@ def estadisticas(request):
 def formulario(request):
 
     form = proveedorform()
+
     if request.method == 'POST':
         form = proveedorform(request.POST)
         if form.is_valid():

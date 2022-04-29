@@ -20,3 +20,15 @@ class Provedore(models.Model):
 
     def __str__(self):
         return self.nombre_proveedor
+
+
+class Vendedor(models.Model):
+    nombre = models.CharField(max_length=60)
+    apellido = models.CharField(max_length=60)
+    edad = models.IntegerField()
+    mail = models.EmailField(verbose_name="Ingrese Correo del Cliente")
+    telefono = models.IntegerField()
+    fecha_contratacion = models.DateField()
+
+    def __str__(self):
+        return f'{self.nombre} {self.apellido}'
