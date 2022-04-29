@@ -12,3 +12,8 @@ Django==4.0.4
 sqlparse==0.4.2
 tzdata==2022.1
 tambien tener instalado la version de python 3.10.2
+
+PERMISOS
+
+Se crean 3 grupos de usuarios con permisos diferenciado, uno que se refiere a los clientes y tiene los permisos para el CRUD de clientes,
+uno que se refiere a los proveedores y tiene los permisos para el CRUD de proveedores, uno que se refiere a los vendedores y tiene los permisos para el CRUD de vendedores, se realiza esta diferenciacion de usuarios debido a que cada uno de las clases tienen utilidades diferentes para la aplicacion
