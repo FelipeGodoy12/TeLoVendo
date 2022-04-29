@@ -12,9 +12,9 @@ class Cliente(models.Model):
         return f'{self.nombre} {self.apellido}'
 
 class Provedore(models.Model):
-    nombre_proveedor = models.CharField(max_length=60,verbose_name='Ingrese nombre del proveedor')
-    categoria = models.CharField(max_length=60,verbose_name='Ingrese categoria del proveedor')
-    direccion = models.CharField(max_length=60,verbose_name='Ingrese la direccion del proveedor')
+    nombre_proveedor = models.CharField(max_length=60,)
+    categoria = models.CharField(max_length=60,)
+    direccion = models.CharField(max_length=60,)
     telefono_proveedor = models.IntegerField(verbose_name='Ingrese Telefono del proveedor')
     email_proveedor = models.EmailField(verbose_name="Ingrese Correo del Proveedor")
 

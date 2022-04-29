@@ -31,6 +31,7 @@ def formulario(request):
             proveedor.email_proveedor = form.data['email_proveedor']
             proveedor.save()
             messages.success(request, f'El proveedor {proveedor.nombre_proveedor} a sido Registrado Correctamente')
+            return redirect('proveedores')
         else:
             print('invalido')
 
@@ -52,6 +53,12 @@ def registrar(request):
 
     return render(request, 'AppTelovendo/registrarse.html', context)
 
+
+def proveedores(request):
+
+    proveedores = Provedore.objects.all()
+    
+    return render(request, 'AppTelovendo/proveedores.html',{'proveedores':proveedores})
 
 @login_required
 def ingresado(request):
