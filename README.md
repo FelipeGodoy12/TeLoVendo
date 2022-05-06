@@ -13,6 +13,8 @@ sqlparse==0.4.2
 tzdata==2022.1
 tambien tener instalado la version de python 3.10.2
 
+Se agrega un query set para mostrar el listado de proveedores registrados en la apliocacion en pantalla web, en el admin se encuentra la opcion de filtrar por categoria de proveedores.
+
 PERMISOS
 
 Se crean 3 grupos de usuarios con permisos diferenciado, uno que se refiere a los clientes y tiene los permisos para el CRUD de clientes,
