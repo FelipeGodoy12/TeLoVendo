@@ -1,9 +1,11 @@
+from dataclasses import fields
+from pyexpat import model
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 
 
-from .models import Provedore
+from .models import Provedore, Comentarios
     
     
 class proveedorform(forms.ModelForm):
@@ -22,6 +24,9 @@ class UserRegistrerForm(UserCreationForm):
         fields =  ['username', 'email', 'password1', 'password2']
         help_texts = {k:"" for k in fields}
 
-
+class ComentarioForm(forms.ModelForm):
+    class Meta:
+        model = Comentarios
+        fields = ['nombre', 'email', 'comentario']
 
 

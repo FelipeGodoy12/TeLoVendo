@@ -1,0 +1,958 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-04-13T00:25:10.882Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "felipe",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-04-19T01:12:59.597Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Gonzalo Arancibia",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-04-19T01:13:27.979Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Raul Rosales",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-04-19T01:13:51.909Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Maria Araya",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-04-19T01:14:22.104Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "4",
+            "object_repr": "Valeria Dieterich",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-04-19T01:14:51.091Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "5",
+            "object_repr": "Cristobal Molina",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-04-22T01:02:44.722Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Mauricio",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-04-29T00:53:25.879Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Admin_Clientes",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-04-29T01:01:29.627Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "1",
+            "object_repr": "Admin_Clientes",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-04-29T01:06:26.269Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "2",
+            "object_repr": "Admin_Proveedor",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-04-29T01:07:13.398Z",
+            "user": 1,
+            "content_type": 3,
+            "object_id": "3",
+            "object_repr": "Admin_Vendedor",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-04-29T01:08:10.896Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "5",
+            "object_repr": "Anibal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-04-29T01:08:20.441Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "6",
+            "object_repr": "Marco",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-04-29T01:08:29.330Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "4",
+            "object_repr": "Mauricio",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-04-29T01:08:37.384Z",
+            "user": 1,
+            "content_type": 4,
+            "object_id": "2",
+            "object_repr": "felipe",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-04-29T23:29:18.582Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Pepsi",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-04-29T23:35:02.576Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Coca-cola",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Ingrese categoria del proveedor\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-04-29T23:35:14.361Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Coca-cola",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Ingrese categoria del proveedor\"]}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add cliente",
+            "content_type": 7,
+            "codename": "add_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change cliente",
+            "content_type": 7,
+            "codename": "change_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete cliente",
+            "content_type": 7,
+            "codename": "delete_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view cliente",
+            "content_type": 7,
+            "codename": "view_cliente"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add provedore",
+            "content_type": 8,
+            "codename": "add_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change provedore",
+            "content_type": 8,
+            "codename": "change_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete provedore",
+            "content_type": 8,
+            "codename": "delete_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view provedore",
+            "content_type": 8,
+            "codename": "view_provedore"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add venderor",
+            "content_type": 9,
+            "codename": "add_venderor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change venderor",
+            "content_type": 9,
+            "codename": "change_venderor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete venderor",
+            "content_type": 9,
+            "codename": "delete_venderor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view venderor",
+            "content_type": 9,
+            "codename": "view_venderor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add vendedor",
+            "content_type": 9,
+            "codename": "add_vendedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change vendedor",
+            "content_type": 9,
+            "codename": "change_vendedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete vendedor",
+            "content_type": 9,
+            "codename": "delete_vendedor"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view vendedor",
+            "content_type": 9,
+            "codename": "view_vendedor"
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 1,
+        "fields": {
+            "name": "Admin_Clientes",
+            "permissions": [
+                25,
+                26,
+                27,
+                28
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 2,
+        "fields": {
+            "name": "Admin_Proveedor",
+            "permissions": [
+                29,
+                30,
+                31,
+                32
+            ]
+        }
+    },
+    {
+        "model": "auth.group",
+        "pk": 3,
+        "fields": {
+            "name": "Admin_Vendedor",
+            "permissions": [
+                37,
+                38,
+                39,
+                40
+            ]
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$RR1HrHhtZDL1c6xGIHkNnW$M+kXGeZJWUY6sMhQUcuQbsz3V06J6KJ83r9k6r6gyd4=",
+            "last_login": "2022-04-29T23:17:40.292Z",
+            "is_superuser": true,
+            "username": "ian",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-13T00:23:28.478Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$OlAgkePTc1ZvcIbqt9WuIf$2q8eGPA7ryV3Q3WQYH5r2PzYbLIdmxRMegeLUxuD6mw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "felipe",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-04-13T00:25:10Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$TepOna7WXDB1FQmmTqlgKK$n8HtxQ+yF7i34qQKh17XVcKbgLObQRmFWLQ7KPS9Yg0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Mauricio",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-22T01:02:17Z",
+            "groups": [
+                3
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$n5SpiDya9T0CVa2QuNQJiG$jv2yW0LS0PDVY5IZTvIk4khLmCLYh9PPTqcjz3oAmsk=",
+            "last_login": "2022-04-22T01:50:02Z",
+            "is_superuser": false,
+            "username": "Anibal",
+            "first_name": "",
+            "last_name": "",
+            "email": "Anibal@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-22T01:16:06Z",
+            "groups": [
+                1
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$tAr6EskgsKkfe7FYQ37vM0$BQ0lJgKPYd37OBCk+aPHVkD2vhpezs2K5XisCuS8Ob0=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "Marco",
+            "first_name": "",
+            "last_name": "",
+            "email": "marco@gmail.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-04-22T01:52:07Z",
+            "groups": [
+                2
+            ],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 7,
+        "fields": {
+            "app_label": "AppTelovendo",
+            "model": "cliente"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 8,
+        "fields": {
+            "app_label": "AppTelovendo",
+            "model": "provedore"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 9,
+        "fields": {
+            "app_label": "AppTelovendo",
+            "model": "vendedor"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "2y4kqmo1h1iozscggxx5fay9dab84rwu",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlle4y8lfc5grddrHECJFCcV4u4QKQW0b2beSyTc1pa2zksai7gIEKffLSM9eNpBueN0myXN07qMWe6KPGiXw1z4eT3cv4OGvX1rb2oA0HSuWK1VUSvNPlcyBB6cZw6Giq4QFEYkAkMuYlXaOkXKcBHvD92vN_I:1nkZro:IJ6ec_2s6AsmbqodsT3-fPLDoKEUPyQAwpkZhIqD--Q",
+            "expire_date": "2022-05-13T23:17:40.300Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "4g03hg65spu16f4azrnwy4m7x9jhg0ue",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlle4y8lfc5grddrHECJFCcV4u4QKQW0b2beSyTc1pa2zksai7gIEKffLSM9eNpBueN0myXN07qMWe6KPGiXw1z4eT3cv4OGvX1rb2oA0HSuWK1VUSvNPlcyBB6cZw6Giq4QFEYkAkMuYlXaOkXKcBHvD92vN_I:1nhiVg:SyusoMpYvXXhs2PCZDFGL5NRDpeHsRdjL-lKOapNhZ8",
+            "expire_date": "2022-05-06T01:55:00.708Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "a9z0gppu7pgsdaiq9t799uiwyfkuu5a2",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlle4y8lfc5grddrHECJFCcV4u4QKQW0b2beSyTc1pa2zksai7gIEKffLSM9eNpBueN0myXN07qMWe6KPGiXw1z4eT3cv4OGvX1rb2oA0HSuWK1VUSvNPlcyBB6cZw6Giq4QFEYkAkMuYlXaOkXKcBHvD92vN_I:1nhhHU:prUEgjs7cpYmvPkaPnZ3TFoH2r0-MtIXcaThuTI2Ad0",
+            "expire_date": "2022-05-06T00:36:16.913Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "fabyrgcut4uyijmpvoecpa1u3ab090fv",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlle4y8lfc5grddrHECJFCcV4u4QKQW0b2beSyTc1pa2zksai7gIEKffLSM9eNpBueN0myXN07qMWe6KPGiXw1z4eT3cv4OGvX1rb2oA0HSuWK1VUSvNPlcyBB6cZw6Giq4QFEYkAkMuYlXaOkXKcBHvD92vN_I:1ngcOD:MKksOJhxveiAK4qBUYDtoNWQVg7w6Wf2yc165pNrBNs",
+            "expire_date": "2022-05-03T01:10:45.576Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "fnrvl8jluky3n704socg9sj2wmpvbvyp",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGln-xR9Kes5grXdtHEC2FCcV4u4QKQW0b2bei0XY1hq3kZc4EzszyU6_WwJ85LYDukO7dY69rcuc-K7wgw5-7ZSfl8P9O6gw6rfOlFEosEU5IG0ooRIhT1ORwmsAGYyyBdBYo1VyLmgEh8Z5SclS8sjeH_spOFc:1neQoI:gHW5pJHoixwnd_SBbK7nG6QR3leZHsXwswub7ZaDRkw",
+            "expire_date": "2022-04-27T00:24:38.180Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ic0kbiuqro6vfz1wnx4vyv9cjmq1qh8x",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlle4y8lfc5grddrHECJFCcV4u4QKQW0b2beSyTc1pa2zksai7gIEKffLSM9eNpBueN0myXN07qMWe6KPGiXw1z4eT3cv4OGvX1rb2oA0HSuWK1VUSvNPlcyBB6cZw6Giq4QFEYkAkMuYlXaOkXKcBHvD92vN_I:1nkElK:6m5pNZPvZeN6AErH8IMyRffxJqtgJZw6PlxMCObG0xU",
+            "expire_date": "2022-05-13T00:45:34.111Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "ikh85ten9gnpdgfn317ar953aqia4w9i",
+        "fields": {
+            "session_data": "e30:1nhiP6:ZIDaw_viP86jafE4a2OIG1y9LKfAD68NhMa51zGVLHA",
+            "expire_date": "2022-05-06T01:48:12.078Z"
+        }
+    },
+    {
+        "model": "AppTelovendo.cliente",
+        "pk": 1,
+        "fields": {
+            "nombre": "Gonzalo",
+            "apellido": "Arancibia",
+            "edad": 30,
+            "mail": "tgh@gmail.com",
+            "telefono": 872873287
+        }
+    },
+    {
+        "model": "AppTelovendo.cliente",
+        "pk": 2,
+        "fields": {
+            "nombre": "Raul",
+            "apellido": "Rosales",
+            "edad": 54,
+            "mail": "jkr@gmail.com",
+            "telefono": 983378975
+        }
+    },
+    {
+        "model": "AppTelovendo.cliente",
+        "pk": 3,
+        "fields": {
+            "nombre": "Maria",
+            "apellido": "Araya",
+            "edad": 25,
+            "mail": "art@gmail.com",
+            "telefono": 983539844
+        }
+    },
+    {
+        "model": "AppTelovendo.cliente",
+        "pk": 4,
+        "fields": {
+            "nombre": "Valeria",
+            "apellido": "Dieterich",
+            "edad": 42,
+            "mail": "bnv@gmail.com",
+            "telefono": 986894564
+        }
+    },
+    {
+        "model": "AppTelovendo.cliente",
+        "pk": 5,
+        "fields": {
+            "nombre": "Cristobal",
+            "apellido": "Molina",
+            "edad": 53,
+            "mail": "yrt@gmail.com",
+            "telefono": 983614873
+        }
+    },
+    {
+        "model": "AppTelovendo.provedore",
+        "pk": 1,
+        "fields": {
+            "nombre_proveedor": "Coca-cola",
+            "categoria": "Bebidas",
+            "direccion": "1 norte 45, vi�a del mar",
+            "telefono_proveedor": 953758462,
+            "email_proveedor": "coca@gmail.com"
+        }
+    },
+    {
+        "model": "AppTelovendo.provedore",
+        "pk": 2,
+        "fields": {
+            "nombre_proveedor": "Pepsi",
+            "categoria": "Bebidas",
+            "direccion": "Quillota 2, vi�a del mar",
+            "telefono_proveedor": 945863215,
+            "email_proveedor": "pepsi@gmail.com"
+        }
+    },
+    {
+        "model": "AppTelovendo.provedore",
+        "pk": 3,
+        "fields": {
+            "nombre_proveedor": "Fruna",
+            "categoria": "Golosinas",
+            "direccion": "Av. Valparaiso 65",
+            "telefono_proveedor": 953741258,
+            "email_proveedor": "fruna@gmail.com"
+        }
+    },
+    {
+        "model": "AppTelovendo.provedore",
+        "pk": 4,
+        "fields": {
+            "nombre_proveedor": "Lays",
+            "categoria": "Golosinas",
+            "direccion": "Av Libertad 45",
+            "telefono_proveedor": 945125852,
+            "email_proveedor": "lays@gmail.com"
+        }
+    }
+]

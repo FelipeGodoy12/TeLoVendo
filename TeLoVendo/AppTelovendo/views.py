@@ -3,15 +3,12 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 
 
-from .forms import proveedorform, UserRegistrerForm
-from .models import Provedore
+from .forms import proveedorform, UserRegistrerForm, ComentarioForm
+from .models import Comentarios, Provedore
 
 # Create your views here.
 def index(request):
     return render(request, 'AppTelovendo/index.html')
-
-def contacto(request):
-    return render(request, 'AppTelovendo/Contacto.html')
 
 def estadisticas(request):
     return render(request, 'AppTelovendo/estadisticas.html')
@@ -64,3 +61,41 @@ def proveedores(request):
 def ingresado(request):
     return render(request, 'AppTelovendo/ingresado.html')
 
+def crearcomentario(request):
+
+    form = ComentarioForm()
+    if request.method == 'POST':
+        form = ComentarioForm(data=request.POST)
+        comentario = form.save(commit=False)
+        comentario.save()
+        return redirect('listarcomentarios')
+
+    else:
+        return render(request, 'AppTelovendo/contacto.html', {'form':form})
+
+def listarcomentarios(request):
+    
+    
+    comentario = Comentarios.objects.all()
+
+
+    return render(request, 'AppTelovendo/listarcomentarios.html', {'comentario':comentario})
+
+def editarcomentarios(request, id):
+    comentario = Comentarios.objects.get(pk=id)
+
+    form = ComentarioForm(instance=comentario)
+    if request.method == 'POST':
+        form = ComentarioForm(data=request.POST, instance=comentario)
+        form.save()
+        return redirect('listarcomentarios')
+
+    else:
+        return render(request, 'AppTelovendo/editarcomentarios.html', {'form':form})
+
+
+
+def eliminarcomentario(request, id):
+    comentario = Comentarios.objects.get(pk=id)
+    comentario.delete()
+    return redirect('listarcomentarios')

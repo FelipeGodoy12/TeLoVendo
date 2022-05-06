@@ -14,3 +14,4 @@ admin.site.register(models.Provedore, ProvedoreAdmin)
 
 admin.site.register(models.Cliente)
 admin.site.register(models.Vendedor)
+admin.site.register(models.Comentarios)
