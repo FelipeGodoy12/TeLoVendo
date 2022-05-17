@@ -11,7 +11,7 @@ from .models import Provedore, Comentarios
 class proveedorform(forms.ModelForm):
     class Meta:
         model = Provedore
-        fields = ("nombre_proveedor", "categoria", "direccion", "telefono_proveedor", "email_proveedor",)
+        fields = ("nombre_proveedor", "direccion","categoria", "telefono_proveedor", "email_proveedor",)
 
 
 

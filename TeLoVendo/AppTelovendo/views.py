@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.views.generic.edit import FormView
 
 
 from .forms import proveedorform, UserRegistrerForm, ComentarioForm
@@ -13,27 +14,16 @@ def index(request):
 def estadisticas(request):
     return render(request, 'AppTelovendo/estadisticas.html')
 
-def formulario(request):
+class Formulario(FormView):
+    template_name = 'AppTelovendo/formulario.html'
+    form_class = proveedorform
+    success_url = '/proveedores'
 
-    form = proveedorform()
-
-    if request.method == 'POST':
-        form = proveedorform(request.POST)
-        if form.is_valid():
-            proveedor = Provedore()
-            proveedor.nombre_proveedor = form.data['nombre_proveedor']
-            proveedor.categoria = form.data['categoria']
-            proveedor.direccion = form.data['direccion']
-            proveedor.telefono_proveedor = form.data['telefono_proveedor']
-            proveedor.email_proveedor = form.data['email_proveedor']
-            proveedor.save()
-            messages.success(request, f'El proveedor {proveedor.nombre_proveedor} a sido Registrado Correctamente')
-            return redirect('proveedores')
-        else:
-            print('invalido')
-
-    return render(request, 'AppTelovendo/formulario.html',{'form': form})
-
+    def form_valid(self, form):
+        # This method is called when valid form data has been POSTed.
+        # It should return an HttpResponse.
+        form.save()
+        return super().form_valid(form)
 
 def registrar(request):
     if request.method == 'POST':
